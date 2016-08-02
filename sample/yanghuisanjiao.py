@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-
 def triangles():
    yield [1]
    L = [1,1]
@@ -10,7 +9,6 @@ def triangles():
         for x in range(1,len(L)) :
             L[x] = H[x-1] + H[x]
         L.append(1)
-
 
 n = 0
 for t in triangles():

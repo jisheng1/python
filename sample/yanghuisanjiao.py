@@ -1,4 +1,5 @@
 # -*- coding:utf-8 -*-
+# 杨辉三角实现
 def triangles():
    yield [1]
    L = [1,1]
